@@ -1,6 +1,8 @@
 # -*- mode: python ; coding: utf-8 -*-
 # Patrimony Desktop — spec PyInstaller (onedir, sans console).
 # Build : pyinstaller --clean --noconfirm desktop/patrimony.spec  (depuis la racine du dépôt)
+# macOS : même commande sur un Mac → dist/Patrimony.app (bundle créé par BUNDLE,
+#         icône .icns committée — voir desktop/make_icns.py pour la régénérer).
 #
 # onedir et non onefile : le mode onefile s'auto-extrait dans %TEMP% puis se
 # relance, un comportement qui déclenche les heuristiques de Windows Defender
@@ -8,6 +10,7 @@
 # Le mode dossier n'extrait rien : beaucoup moins de détections.
 
 import os
+import sys
 
 ROOT = os.path.abspath(os.path.join(SPECPATH, '..'))  # racine du dépôt, absolue
 
@@ -86,3 +89,20 @@ coll = COLLECT(
     upx=False,
     name='Patrimony',
 )
+
+# --- macOS : bundle .app (icône .icns, version dans l'Info.plist) ----------
+# N'est exécuté que sur macOS ; sur Windows/Linux la spec produit dist/Patrimony/.
+if sys.platform == 'darwin':
+    appl = BUNDLE(
+        coll,
+        name='Patrimony.app',
+        icon='patrimony.icns',
+        bundle_identifier='com.lostinthebugs.patrimony',
+        version=_ver,
+        info_plist={
+            'NSHighResolutionCapable': True,
+            'LSApplicationCategoryType': 'public.app-category.finance',
+            'LSMinimumSystemVersion': '12.0',
+            'NSHumanReadableCopyright': 'MIT License - github.com/LostInTheBugs/Patrimony',
+        },
+    )

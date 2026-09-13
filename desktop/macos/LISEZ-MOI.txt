@@ -1,0 +1,62 @@
+PATRIMONY — APPLICATION DE BUREAU (macOS)
+=========================================
+
+🌍 Autres langues : English → README.txt · Deutsch → LIESMICH.txt ·
+   Lëtzebuergesch → LIES-MICH.txt
+
+Votre patrimoine, vos données, sur VOTRE ordinateur.
+Aucun serveur, aucun compte en ligne, aucune connexion requise
+(sauf pour le cours des cryptos, qui vient de sources publiques).
+
+INSTALLATION (2 minutes, sans installateur)
+-------------------------------------------
+1. Décompressez l'archive « Patrimony-macOS.zip » où vous voulez
+   (par exemple dans Documents). Gardez l'ensemble tel quel :
+   les données vivront à côté de l'application.
+2. Double-cliquez sur « Patrimony.app ».
+
+   Premier lancement : macOS peut afficher « macOS ne peut pas vérifier
+   le développeur de cette application » (normal pour une application
+   non signée). Faites un clic droit sur « Patrimony.app » → « Ouvrir »,
+   puis confirmez « Ouvrir ». Les fois suivantes, un double-clic suffit.
+
+3. La fenêtre Patrimony s'ouvre.
+
+PREMIÈRE CONNEXION
+------------------
+   Identifiant : admin
+   Mot de passe : change-me
+
+   ⚠️ Changez-le tout de suite : menu « Paramètres » une fois connecté.
+
+VOS DONNÉES
+-----------
+Elles sont dans le dossier « data », à côté de Patrimony.app.
+Sauvegarder = copier ce dossier « data » sur une clé USB ou un disque
+externe de temps en temps. Rien n'est envoyé sur Internet : les
+adresses crypto suivies sont interrogées via des explorers publics
+(lecture seule), jamais vos clés privées.
+Conseil : si vous déplacez Patrimony.app, emportez aussi le dossier
+« data » — ils vont ensemble.
+
+POUR FERMER
+-----------
+Fermez la fenêtre (le bouton rouge). Le logiciel s'arrête — aucun
+service ne reste en arrière-plan.
+
+DÉPANNAGE
+---------
+- « macOS ne peut pas vérifier le développeur » : c'est le point 2
+  (clic droit → Ouvrir). Une seule fois.
+- La fenêtre ne s'ouvre pas : relancez l'application. En cas de
+  problème persistant, le fichier « error.log », à côté de
+  l'application, contient le détail à transmettre au développeur.
+- Le dossier « data » n'apparaît pas à côté de l'application
+  (emplacement protégé) : Finder → menu « Aller » → « Aller au
+  dossier… » → ~/Library/Application Support/Patrimony
+- Réinitialiser (tout effacer) : supprimez le dossier « data »,
+  tout recommence à zéro au prochain lancement.
+- Mise à jour : téléchargez la nouvelle archive et remplacez
+  « Patrimony.app » (conservez votre dossier « data »).
+
+Licence MIT — projet open source : github.com/LostInTheBugs/Patrimony

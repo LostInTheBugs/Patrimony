@@ -9,3 +9,7 @@ data/
 build/
 dist/
 desktop/version_info.txt
+
+# Desktop — fichiers d'exécution locaux (diagnostic)
+url.txt
+error.log

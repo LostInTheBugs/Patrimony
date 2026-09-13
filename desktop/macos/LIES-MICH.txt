@@ -1,0 +1,63 @@
+PATRIMONY — DESKTOP-APPLIKATIOUN (macOS)
+========================================
+
+🌍 Aner Sproochen: Français → LISEZ-MOI.txt · English → README.txt ·
+   Deutsch → LIESMICH.txt
+
+Är Patrimoine, Är Donnéeën, op ÄREM Computer.
+Kee Server, kee Cloud-Kont, keng Installatioun néideg. Nëmmen eng Saach
+geet online: ëffentlech Krypto-Coursen (nëmmen liesen — NIEMOLS Är
+Schlësselen).
+
+INSTALLATIOUN (2 Minutten, ouni Installateur)
+---------------------------------------------
+1. Packt d'Archiv "Patrimony-macOS.zip" aus, wou Dir wëllt (zum
+   Beispill an "Dokumenter"). Loosst alles zesummen: d'Donnéeë komme
+   niewent d'Applikatioun.
+2. Duebelklick op "Patrimony.app".
+
+   Beim éischte Start weist macOS Iech eventuell "macOS kann den
+   Entwéckler vun dëser Applikatioun net iwwerpréiwen" (normal fir eng
+   net signéiert App). Rietsklick op "Patrimony.app" → "Opmaachen",
+   duerno "Opmaachen" confirméieren. Duerno geet en Duebelklick.
+
+3. D'Fënster vu Patrimony geet op.
+
+ÉISCHT ALOGGEN
+--------------
+   Benotzernumm: admin
+   Passwuert: change-me
+
+   ⚠️ Ännert et direkt: Menü "Astellungen" nom Aloggen.
+
+ÄR DONNÉEËN
+-----------
+Alles ass am Dossier "data", niewent Patrimony.app.
+Sécherheetskopie = kopéiert dësen Dossier "data" heiansdo op en
+USB-Stick oder eng extern Plack. Et gëtt näischt eropgelueden:
+d'Krypto-Adressen, déi Dir verfollegt, ginn nëmmen iwwer ëffentlech
+Explorer ofgefrot (nëmmen liesen), NIEMOLS Är privat Schlësselen.
+Tipp: wann Dir Patrimony.app verschiebt, hëlt den Dossier "data" mat —
+déi zwee ginn zesummen.
+
+FIR ZOUMAACHEN
+--------------
+Maacht einfach d'Fënster zou (roude Knäppchen). D'Applikatioun hält un
+— et bleift keen Déngscht am Hannergrond.
+
+WANN ET PROBLEMER GËTT
+----------------------
+- "macOS kann den Entwéckler net iwwerpréiwen": kuckt Schrëtt 2
+  (Rietsklick → Opmaachen). Nëmmen eemol.
+- D'Fënster geet net op: start d'Applikatioun nach eng Kéier. Wann et
+  weiderhi Problemer gëtt, steet am Fichier "error.log" niewent der
+  Applikatioun alles, wat den Entwéckler brauch.
+- Den Dossier "data" erschéngt net niewent der Applikatioun
+  (geschützten Emplacement): Finder → Menü "Aller" → "Aller au
+  dossier…" → ~/Library/Application Support/Patrimony
+- Vun Null ufänken (alles läschen): läscht den Dossier "data" — den
+  nächste Start fänkt frësch un.
+- Aktualiséierung: lued déi nei Archiv erof a ersetzt "Patrimony.app"
+  (behält Ären Dossier "data").
+
+MIT-Lizenz — Open Source: github.com/LostInTheBugs/Patrimony

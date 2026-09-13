@@ -1,0 +1,62 @@
+PATRIMONY — DESKTOP-ANWENDUNG (macOS)
+=====================================
+
+🌍 Andere Sprachen: Français → LISEZ-MOI.txt · English → README.txt ·
+   Lëtzebuergesch → LIES-MICH.txt
+
+Ihr Vermögen, Ihre Daten, auf IHREM Computer.
+Kein Server, kein Online-Konto, keine Verbindung nötig
+(außer für Krypto-Kurse, die aus öffentlichen Quellen stammen).
+
+INSTALLATION (2 Minuten, ohne Installer)
+----------------------------------------
+1. Entpacken Sie « Patrimony-macOS.zip » wohin Sie möchten (z. B. in
+   « Dokumente »). Lassen Sie alles zusammen: Ihre Daten liegen neben
+   der Anwendung.
+2. Doppelklicken Sie auf « Patrimony.app ».
+
+   Erster Start: macOS meldet eventuell „macOS kann den Entwickler
+   dieser Anwendung nicht überprüfen" (normal für eine nicht signierte
+   Anwendung). Rechtsklick auf « Patrimony.app » → „Öffnen", dann
+   „Öffnen" bestätigen. Danach genügt ein Doppelklick.
+
+3. Das Patrimony-Fenster öffnet sich.
+
+ERSTE ANMELDUNG
+---------------
+   Benutzername: admin
+   Passwort: change-me
+
+   ⚠️ Ändern Sie es sofort: Menü „Einstellungen" nach der Anmeldung.
+
+IHRE DATEN
+----------
+Sie liegen im Ordner „data", neben Patrimony.app.
+Sicherung = den Ordner „data" gelegentlich auf einen USB-Stick oder
+eine externe Festplatte kopieren. Nichts wird ins Internet gesendet:
+verfolgte Krypto-Adressen werden über öffentliche Explorer abgefragt
+(nur Lesen), niemals Ihre privaten Schlüssel.
+Tipp: Wenn Sie Patrimony.app verschieben, nehmen Sie den Ordner
+„data" mit — die beiden gehören zusammen.
+
+ZUM SCHLIESSEN
+--------------
+Schließen Sie das Fenster (roter Knopf). Die Anwendung beendet sich —
+nichts läuft im Hintergrund weiter.
+
+FEHLERBEHEBUNG
+--------------
+- „macOS kann den Entwickler nicht überprüfen": siehe Punkt 2
+  (Rechtsklick → Öffnen). Nur einmalig.
+- Das Fenster öffnet sich nicht: starten Sie die Anwendung erneut. Bei
+  anhaltendem Problem enthält die Datei „error.log" neben der
+  Anwendung Details für den Entwickler.
+- Der Ordner „data" erscheint nicht neben der Anwendung (geschützter
+  Ort): Finder → Menü „Gehe zu" → „Gehe zum Ordner…" →
+  ~/Library/Application Support/Patrimony
+- Zurücksetzen (alles löschen): Ordner „data" löschen; beim nächsten
+  Start beginnt alles von vorn.
+- Aktualisierung: neue Datei herunterladen und « Patrimony.app »
+  ersetzen (Ordner „data" behalten).
+
+MIT-Lizenz — Open-Source-Projekt: github.com/LostInTheBugs/Patrimony
