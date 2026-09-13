@@ -2,6 +2,22 @@
 
 All notable changes to Patrimony are documented in this file.
 
+## [2026.09.074] — 2026-09-13
+
+### Added
+
+- **macOS desktop build** — `Patrimony-macOS.zip`: a self-contained
+  `Patrimony.app` for Apple Silicon (no Python, no Docker), built by CI on
+  macOS runners and attached to each release alongside
+  `Patrimony-Windows.zip`. Data lives in a `data/` folder next to the app
+  (fallback: `~/Library/Application Support/Patrimony` when the app runs
+  from a read-only location); user guides in FR / EN / DE / LU included.
+
+### Changed
+
+- Desktop launcher: a `desktop.log` file now records the native-window
+  state (opened / browser fallback) next to the app, for support.
+
 ## [2026.09.073] — 2026-09-12
 
 ### Fixed
