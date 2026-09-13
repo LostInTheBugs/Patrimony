@@ -313,18 +313,18 @@ and change the seeded admin password on first login.
 ## Development cost (LLM)
 
 This project was built entirely through AI-assisted sessions (Hermes Agent).
-Usage since the first version (2026-09-04 bootstrap; see `TOKENS.md` for the
-per-session detail):
+Usage since the first version (2026-09-04 bootstrap; cumulative as of
+2026-09-13 — see `TOKENS.md` for the per-session detail):
 
 | Metric | deepseek-v4-flash | gemini-3.6-flash (vision) | **Total** |
 |---|---|---|---|
-| Dev sessions (interactive + scripted) | 15 | (same sessions) | **15** |
-| API calls | 5 070 | 47 | **5 117** |
-| Input tokens | 8 952 795 | 55 337 | **9 009 672** |
-| Output tokens | 4 334 009 | 58 783 | **4 392 808** |
-| **Subtotal (input + output)** | **13 286 804** | **114 120** | **13 402 480** |
-| Cache read (reused at reduced price) | 1 048 377 472 | 0 | **1 048 377 472** |
-| **Estimated cost** | **≈ 5.27 USD** | **≈ 0.46 USD** | **≈ 5.73 USD** |
+| Dev sessions (interactive + scripted) | 17 | (same sessions) | **17** |
+| API calls | 5 510 | 51 | **5 573** |
+| Input tokens | 10 282 161 | 60 001 | **10 348 379** |
+| Output tokens | 5 068 939 | 62 650 | **5 133 699** |
+| **Subtotal (input + output)** | **15 351 100** | **122 651** | **15 482 078** |
+| Cache read (reused at reduced price) | 1 136 215 040 | 0 | **1 136 215 040** |
+| **Estimated cost** | **≈ 5.90 USD** | **≈ 0.50 USD** | **≈ 6.40 USD** |
 
 ## Disclaimer
 
